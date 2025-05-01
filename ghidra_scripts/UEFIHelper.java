@@ -452,16 +452,16 @@ public class UEFIHelper extends GhidraScript {
 		String libraryName;
 		switch (machine) {
 			case MachineConstants.IMAGE_FILE_MACHINE_AMD64:
-				libraryName = "uefi_x64.gdt";
+				libraryName = "tommy_uefi_x64.gdt";
 				break;
 			case MachineConstants.IMAGE_FILE_MACHINE_ARM:
-				libraryName = "uefi_arm.gdt";
+				libraryName = "tommy_uefi_arm.gdt";
 				break;
 			case MachineConstants.IMAGE_FILE_MACHINE_ARM64:
-				libraryName = "uefi_aarch64.gdt";
+				libraryName = "tommy_uefi_aarch64.gdt";
 				break;
 			case MachineConstants.IMAGE_FILE_MACHINE_I386:
-				libraryName = "uefi_ia32.gdt";
+				libraryName = "tommy_uefi_ia32.gdt";
 				break;
 			default:
 				Msg.showError(this, null, "UEFIHelper",

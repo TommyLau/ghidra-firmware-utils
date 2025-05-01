@@ -1,0 +1,36 @@
+stdarg.h
+X64/ProcessorBind.h
+Uefi/UefiBaseType.h
+Uefi/UefiInternalFormRepresentation.h
+IndustryStandard/Bluetooth.h
+Guid/WinCertificate.h
+Protocol/DevicePath.h
+Protocol/SimpleTextIn.h
+Protocol/SimpleTextOut.h
+Protocol/HiiDatabase.h
+Protocol/HiiFont.h
+Protocol/HiiString.h
+Protocol/Pcd.h
+Protocol/HiiConfigRouting.h
+Protocol/HiiImage.h
+MdeModulePkg/Library/PiDxeS3BootScriptLib/InternalBootScriptLib.h
+
+-D__STDC_HOSTED__=1
+-D__GNUC__=13
+-D__STDC_VERSION__=201710L
+-D__STDC__=1
+-D__x86_64=1
+-D__x86_64__=1
+-D__builtin_va_list=void *
+-D__builtin_ms_va_list=void *
+
+/Users/tommy.lau/Git/edk2/MdeModulePkg/Include
+/Users/tommy.lau/Git/edk2/MdePkg/Include/X64
+/Users/tommy.lau/Git/edk2/MdePkg/Include
+/Users/tommy.lau/Git/edk2
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+
+x86:LE:64:default
+
+gcc
+
